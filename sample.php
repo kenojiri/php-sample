@@ -8,7 +8,7 @@ class Sample{
   }
   
   public function set_value($value){
-    $this->value = $value * 3;
+    $this->value = $value * 2;
   }
 } 
 ?>
