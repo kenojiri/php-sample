@@ -1,4 +1,5 @@
 <?php
+namespace sample;
 require_once 'sample.php';
  
 class SampleTest extends PHPUnit_Framework_TestCase{
@@ -8,8 +9,8 @@ class SampleTest extends PHPUnit_Framework_TestCase{
   }
  
   public function testGetValue(){
-    $this->sample->set_value(20);
-    $this->assertEquals(40,$this->sample->get_value());
+    $this->sample->setValue(20);
+    $this->assertEquals(40,$this->sample->getValue());
   }
 }
 ?>
