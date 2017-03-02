@@ -1,5 +1,7 @@
 <?php
-class ojiri\Sample{
+namespace sample;
+
+class Sample{
   protected $value;
  
   public function getValue(){
