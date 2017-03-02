@@ -1,5 +1,5 @@
 <?php
-class ojiri.Sample{
+class ojiri\Sample{
   protected $value;
  
   public function getValue(){
