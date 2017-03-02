@@ -9,7 +9,7 @@ class Sample{
   }
 
   public function setValue($value){
-    $this->value = $value * 3;
+    $this->value = $value * 2;
   }
 } 
 ?>
