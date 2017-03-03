@@ -1,13 +1,14 @@
 <?php
+namespace sample;
 class Sample{
   protected $value;
- 
-  public function get_value(){
+
+  public function getValue(){
     return $this->value;
     throw new RuntimeException('Not yet implemented.');
   }
-  
-  public function set_value($value){
+
+  public function setValue($value){
     $this->value = $value * 2;
   }
 } 
