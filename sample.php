@@ -1,5 +1,5 @@
 <?php
-package Sample;
+namespace Sample;
 
 class Sample{
   protected $value;

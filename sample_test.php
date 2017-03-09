@@ -1,5 +1,5 @@
 <?php
-package Sample;
+namespace Sample;
 require_once 'sample.php';
  
 class SampleTest extends PHPUnit_Framework_TestCase{
