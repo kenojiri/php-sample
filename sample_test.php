@@ -1,7 +1,7 @@
 <?php
 require_once 'sample.php';
  
-class SampleTest extends PHPUnit_Framework_TestCase{
+class SampleTest extends PHPUnit\Framework\TestCase{
  
   public function setUp(){
     $this->sample = new Sample;
