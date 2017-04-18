@@ -1,4 +1,5 @@
 <?php
+use PHPUnit\Framework\TestCase;
 require_once 'sample.php';
  
 class SampleTest extends PHPUnit_Framework_TestCase{
